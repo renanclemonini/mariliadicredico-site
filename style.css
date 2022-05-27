@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400&display=swap');
+
+:root{
+    --cor0: rgb(255, 255, 255);
+    --cor1: rgba(245, 245, 11, 0.932);
+    --cor2: rgb(0, 0, 0);
+    
+    --fonte-titulo: 'Cinzel', serif;
+    --fonte-subtitulo: 'Akshar', sans-serif;
+    --fonte-padrao: arial, helvetica, sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(165, 161, 161);
+}
+
+header{
+    background-image: linear-gradient(to top, var(--cor2), var(--cor1));
+    color: var(--cor0);
+    text-shadow: 0px 10px 5px rgb(0 0 0 / 64%);
+    height: 150px;
+    padding-top: 75px;
+    margin: auto;
+    }
+
+header h1{
+    text-align: center;
+    font-size: 3em;
+    font-family: var(--fonte-titulo);
+    letter-spacing: 2px;margin: 0px;
+    
+}
+
+header p{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: var(--fonte-subtitulo);
+    text-shadow: 0px 10px 5px rgba(0, 0, 0, 0.644);
+    font-weight: 300;
+    margin: 0px;letter-spacing: 4px;
+}
+
+nav{
+    font-size: 1.3em;
+    text-align: center;
+    padding: 20px 20px;
+    background-color: var(--cor2);
+}
+
+nav > a{
+    color: var(--cor0);
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav > a:hover{
+    background-color: rgba(255, 255, 255, 0.507);
+    padding: 8px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+main{
+    min-width: 450px;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.555);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main h2{
+    padding: 5px;
+}
+
+main article{
+    text-align: justify;
+}
+
+main p{
+    padding: 5px;
+    text-indent: 5px;
+}
+
+main img{
+    display: block;
+    margin: auto;
+}
+
+div.map {
+    padding: 10px;
+}
+
+div.map > iframe{
+    width: 100%;
+}
+
+aside{
+    background-color: rgb(165, 161, 161);
+    padding: 10px;
+    margin: 10px;
+}
+
+aside > ul {
+    list-style-position: inside;
+    padding-left: 15px;
+}
