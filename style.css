@@ -58,8 +58,10 @@ nav{
 
 nav > a{
     color: var(--cor0);
-    text-decoration: none;
-    margin-left: 20px;
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 255, 255, 0.308);
+    margin-left: 50px; 
+    margin-right: 50px;
 }
 
 nav > a:hover{
@@ -78,7 +80,7 @@ main{
     margin-bottom: 30px;
     padding: 20px;
     background-color: white;
-    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.555);
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.836);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
