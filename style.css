@@ -114,6 +114,20 @@ main img{
     margin: auto;
 }
 
+main ul {
+    list-style-position: inside;
+    padding-left: 1em;
+    font-weight: 500;
+}
+
+main img.qr{
+    display: inline;
+    text-align: center;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+
 div.map {
     padding: 10px;
 }
@@ -129,7 +143,7 @@ aside{
 
 aside > ul {
     list-style-position: inside;
-    padding-left: 15px;
+    padding-left: 1em;
 }
 
 ul > li > a{
