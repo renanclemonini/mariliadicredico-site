@@ -84,6 +84,7 @@ main{
 }
 
 main h2{
+    font-size: 2em;
     padding: 5px;
 }
 
@@ -92,8 +93,10 @@ main article{
 }
 
 main p{
+    font-size: 1.2em;
     padding: 5px;
-    text-indent: 5px;
+    text-indent: 10px;
+    line-height: 1.5em;
 }
 
 main img{
