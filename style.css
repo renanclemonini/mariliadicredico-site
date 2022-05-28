@@ -21,6 +21,14 @@
     padding: 0px;
 }
 
+main p{
+    font-size: 1.2em;
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 10px;
+    line-height: 1.5em;
+}
+
 body{
     background-color: rgb(165, 161, 161);
 }
@@ -29,41 +37,43 @@ header{
     background-image: linear-gradient(to top, var(--cor2), var(--cor1));
     color: var(--cor0);
     text-shadow: 0px 10px 5px rgb(0 0 0 / 64%);
-    height: 150px;
+    text-align: center;
+    min-height: 150px;
     padding-top: 75px;
     margin: auto;
     }
 
 header h1{
-    text-align: center;
     font-size: 3em;
     font-family: var(--fonte-titulo);
     letter-spacing: 2px;margin: 0px;
-    
+    margin-bottom: 10px;
 }
 
 header p{
-    text-align: center;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-family: var(--fonte-subtitulo);
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
     text-shadow: 0px 10px 5px rgba(0, 0, 0, 0.644);
     font-weight: 300;
-    margin: 0px;letter-spacing: 4px;
+    letter-spacing: 5px;
 }
 
 nav{
-    font-size: 1.3em;
-    text-align: center;
-    padding: 30px 30px;
+    padding: 10px;
     background-color: var(--cor2);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.438);
 }
 
 nav > a{
-    color: var(--cor0);
-    text-decoration: underline;
-    text-decoration-color: rgba(255, 255, 255, 0.308);
-    margin-left: 70px; 
-    margin-right: 70px;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
 }
 
 nav > a:hover{
@@ -76,8 +86,8 @@ nav > a:hover{
 }
 
 main{
-    min-width: 350px;
-    max-width: 800px;
+    min-width: 400px;
+    max-width: 1000px;
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
@@ -96,17 +106,6 @@ main h3{
     text-decoration: underline;
     text-align: center;
     font-weight: normal;
-}
-
-main article{
-    text-align: justify;
-}
-
-main p{
-    font-size: 1.2em;
-    padding: 5px;
-    text-indent: 10px;
-    line-height: 1.5em;
 }
 
 main img{
