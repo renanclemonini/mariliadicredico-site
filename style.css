@@ -21,14 +21,6 @@
     padding: 0px;
 }
 
-main p{
-    font-size: 1.2em;
-    margin: 15px 0px;
-    text-align: justify;
-    text-indent: 10px;
-    line-height: 1.5em;
-}
-
 body{
     background-color: rgb(165, 161, 161);
 }
@@ -106,6 +98,14 @@ main h3{
     text-decoration: underline;
     text-align: center;
     font-weight: normal;
+}
+
+main p{
+    font-size: 1.2em;
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 10px;
+    line-height: 1.5em;
 }
 
 main img{
