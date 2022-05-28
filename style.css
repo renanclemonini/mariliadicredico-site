@@ -119,3 +119,7 @@ aside > ul {
     list-style-position: inside;
     padding-left: 15px;
 }
+
+ul > li > a{
+    color: black;
+}
