@@ -22,16 +22,16 @@
 }
 
 body{
-    background-color: rgb(165, 161, 161);
+    background-color: white;
 }
 
 header{
-    min-height: 150px;
+    min-height: 200px;
     padding-top: 75px;
-}
-
-div#bg{
+    padding-bottom: 75px;
+    margin: 35px 25px 25px 25px;
     background-image: url('imagens/logocompleta_mary.png');
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -59,7 +59,7 @@ header p{
 nav{
     padding: 10px;
     background-color: var(--cor2);
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.438);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.438);
 }
 
 nav > a{
@@ -85,14 +85,15 @@ main{
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
-    background-color: white;
-    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.836);
+    background-color: #ffdf00;
+    box-shadow: 0px 5px 30px rgb(0, 0, 0);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
 
 main h2{
-    font-size: 2em;
+    text-align: center;
+    font-size: 2.3em;
     padding: 5px;
 }
 
@@ -118,16 +119,23 @@ main img{
 main ul {
     list-style-position: inside;
     padding-left: 1em;
+    columns: 2;
     font-weight: 500;
 }
 
-main img.qr{
-    display: inline;
-    text-align: center;
-    padding-left: 45px;
-    padding-right: 45px;
+div.qrcode#ig{
+    display: inline-block;
+    margin-left: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
+div.qrcode#wpp{
+    display: inline-block;
+    margin-left: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
 
 div.map {
     padding: 10px;
@@ -142,13 +150,21 @@ aside{
     margin: 10px;
 }
 
-aside > ul {
-    list-style-position: inside;
-    padding-left: 1em;
+aside p{
+    font-weight: bold;
+    text-align: center;
 }
 
-ul > li > a{
+aside ul {
+    text-align: center;
+    list-style-position: inside;
+    columns: 2;
+}
+
+aside a{
+    font-size: 1.2em;
     color: black;
+    font-weight: bold;
 }
 
 footer{
@@ -159,4 +175,5 @@ footer{
     text-align: center;
     padding: 10px;
     font-family: 'Caveat', cursive;
+    letter-spacing: 3px;
 }
