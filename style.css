@@ -26,14 +26,15 @@ body{
 }
 
 header{
-    background-image: linear-gradient(to top, var(--cor2), var(--cor1));
-    color: var(--cor0);
-    text-shadow: 0px 10px 5px rgb(0 0 0 / 64%);
-    text-align: center;
     min-height: 150px;
     padding-top: 75px;
-    margin: auto;
-    }
+}
+
+div#bg{
+    background-image: url('imagens/logocompleta_mary.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 
 header h1{
     font-size: 3em;
