@@ -104,11 +104,12 @@ main h3{
 }
 
 main p{
-    font-size: 1.2em;
+    font-size: 1.3em;
     margin: 15px 0px;
+    font-weight: 500;
     text-align: justify;
     text-indent: 10px;
-    line-height: 1.5em;
+    line-height: 1.6em;
 }
 
 main img{
@@ -118,9 +119,15 @@ main img{
 
 main ul {
     list-style-position: inside;
+    font-size: 1.3em;
     padding-left: 1em;
     columns: 2;
     font-weight: 500;
+}
+
+div h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 div.qrcode#ig{
