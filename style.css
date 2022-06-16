@@ -23,42 +23,22 @@
 
 body{
     background-color: white;
-    background-image: url('imagens/logo.png');
-    background-repeat: repeat;
+
 }
 
 header{
-    min-height: 200px;
-    background-image: linear-gradient(to top, black, #ffdf00);
+    background-image: url('imagens/logocompleta_mary.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 85vh;
+    background-attachment: scroll;
     color: white;
-    padding-top: 75px;
-    margin: auto;
-}
-
-header h1{
-    font-size: 3em;
-    text-align: center;
-    font-family: var(--fonte-titulo);
-    letter-spacing: 2px;margin: 0px;
-    margin-bottom: 10px;
-}
-
-header p{
-    font-size: 1.2em;
-    text-align: center;
-    font-family: var(--fonte-subtitulo);
-    max-width: 600px;
-    padding-right: 10px;
-    padding-left: 10px;
-    margin: auto;
-    padding-bottom: 50px;
-    text-shadow: 0px 10px 5px rgba(0, 0, 0, 0.644);
-    font-weight: 300;
-    letter-spacing: 7px;
+    padding: 160px
 }
 
 nav{
-    padding: 10px;
+    padding: 15px;
+    font-size: 1em;
     background-color: var(--cor2);
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.438);
 }
@@ -85,7 +65,7 @@ main{
     max-width: 1000px;
     margin: auto;
     margin-bottom: 30px;
-    padding: 20px;
+    padding: 30px;
     background-color: #ffdf00;
     box-shadow: 0px 5px 30px rgb(0, 0, 0);
     border-bottom-left-radius: 10px;
@@ -94,19 +74,18 @@ main{
 
 main h2{
     text-align: center;
-    font-size: 2.3em;
-    padding: 5px;
-}
-
-main h3{
+    font-size: 2em;
+    font-variant: small-caps;
     text-decoration: underline;
-    text-align: center;
-    font-weight: normal;
+    text-decoration-color: rgba(0, 0, 0, 0.671);
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 main p{
-    font-size: 1.3em;
-    margin: 15px 0px;
+    font-size: 1.5em;
+    padding-top: 5px;
+    padding-bottom: 5px;
     font-weight: 500;
     text-align: justify;
     text-indent: 10px;
@@ -121,28 +100,9 @@ main img{
 main ul {
     list-style-position: inside;
     font-size: 1.3em;
-    padding-left: 1em;
+    text-align: center;
     columns: 2;
     font-weight: 500;
-}
-
-div h2{
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-div.qrcode#ig{
-    display: inline-block;
-    margin-left: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-div.qrcode#wpp{
-    display: inline-block;
-    margin-left: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
 }
 
 div.map {
@@ -159,29 +119,42 @@ aside{
 }
 
 aside p{
-    font-weight: bold;
     text-align: center;
-}
-
-aside ul {
-    text-align: center;
-    list-style-position: inside;
-    columns: 2;
+    font-weight: 400;
 }
 
 aside a{
     font-size: 1.2em;
     color: black;
     font-weight: bold;
+    transition-duration: .3s;
+}
+
+aside a.dentro{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+aside a:hover{
+    background-color: black;
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 footer{
     background-color: black;
     color: white;
     font-size: 1.5em;
-    font-weight: bold;
+    font-variant: small-caps;
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 255, 255, 0.712);
     text-align: center;
-    padding: 10px;
-    font-family: 'Caveat', cursive;
-    letter-spacing: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif
+    letter-spacing: 2px;
 }
