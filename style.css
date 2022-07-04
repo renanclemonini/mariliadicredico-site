@@ -159,14 +159,14 @@ footer{
 }
 
 @media (min-width: 1000px){
-    header{
+    header#container{
         height: 80px;
         background-size: 70vh;
     }
 }
 
 @media (max-width: 720px){
-    header{
+    header#container{
         background-size: 50vh;
     }
 
@@ -186,7 +186,7 @@ footer{
 }
 
 @media (max-width: 600px){
-    header{
+    header#container{
         background-size: 50vh;
     }
 
@@ -206,7 +206,7 @@ footer{
 }
 
 @media (max-width: 400px){
-    header{
+    header#container{
         background-size: 40vh;
     }
 
