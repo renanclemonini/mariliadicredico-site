@@ -158,9 +158,16 @@ footer{
     letter-spacing: 2px;
 }
 
+@media (min-width: 1020px){
+    header#container{
+        height: 500px;
+        background-size: 30vh;
+    }
+}
+
 @media (min-width: 1000px){
     header#container{
-        height: 80px;
+        height: 275px;
         background-size: 70vh;
     }
 }
@@ -207,6 +214,7 @@ footer{
 
 @media (max-width: 400px){
     header#container{
+        height: 170px;
         background-size: 40vh;
     }
 
