@@ -31,14 +31,16 @@ header{
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 50vh;
-    background-attachment: scroll;
+    background-attachment: fixed;
+    background-position: top center;
+    position: relative;
     color: white;
     padding: 100px
 }
 
 nav{
-    padding: 20px;
-    font-size: 1em;
+    padding: 15px;
+    font-size: 2em;
     text-align: center;
     background-color: var(--cor2);
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.438);
@@ -88,7 +90,7 @@ main p{
     padding-bottom: 15px;
     font-weight: 500;
     text-align: justify;
-    text-indent: 10px;
+    text-indent: 20px;
     line-height: 1.6em;
 }
 
@@ -101,6 +103,8 @@ main ul {
     list-style-position: inside;
     font-size: 1.3em;
     text-align: center;
+    text-decoration: underline;
+    text-decoration-color: rgba(0, 0, 0, 0.418);
     columns: 2;
     font-weight: 500;
 }
@@ -126,13 +130,12 @@ aside p{
 aside a{
     font-size: 1.2em;
     color: black;
-    font-weight: bold;
     transition-duration: .3s;
 }
 
 aside a.dentro{
-    text-decoration: none;
-    font-weight: 400;
+    font-weight: normal;
+    text-decoration-color: rgba(0, 0, 0, 0.486);
     font-size: 1em;
 }
 
@@ -171,6 +174,10 @@ footer{
         background-size: 50vh;
     }
 
+    nav{
+        font-size: 1em;
+    }
+
     main{
         max-width: 75vw;
     }
@@ -186,6 +193,10 @@ footer{
         background-size: 50vh;
     }
 
+    nav{
+        font-size: 1em;
+    }
+
     main{
         max-width: 75vw;
     }
@@ -199,6 +210,10 @@ footer{
 @media (max-width: 400px){
     header{
         background-size: 40vh;
+    }
+
+    nav{
+        font-size: 1em;
     }
 
     main{
