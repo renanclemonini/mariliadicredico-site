@@ -215,7 +215,7 @@ footer{
 @media (max-width: 400px){
     header#container{
         height: 170px;
-        background-size: 20vh;
+        background-size: 30vh;
     }
 
     nav{
