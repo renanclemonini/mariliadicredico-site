@@ -26,21 +26,17 @@ body{
 
 }
 
-header{
+header#container{
+    height: 200px;
     background-image: url('imagens/logocompleta_mary.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 50vh;
-    background-attachment: fixed;
-    background-position: top center;
-    position: relative;
-    color: white;
-    padding: 100px
 }
 
 nav{
     padding: 15px;
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
     background-color: var(--cor2);
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.438);
@@ -85,7 +81,7 @@ main h2{
 }
 
 main p{
-    font-size: 1.5em;
+    font-size: 1.2em;
     padding-top: 5px;
     padding-bottom: 15px;
     font-weight: 500;
@@ -101,7 +97,7 @@ main img{
 
 main ul {
     list-style-position: inside;
-    font-size: 1.3em;
+    font-size: 1.2em;
     text-align: center;
     text-decoration: underline;
     text-decoration-color: rgba(0, 0, 0, 0.418);
@@ -180,6 +176,7 @@ footer{
 
     main{
         max-width: 75vw;
+        font-size: 1em;
     }
 
     footer{
@@ -199,6 +196,7 @@ footer{
 
     main{
         max-width: 75vw;
+        font-size: 1em;
     }
 
     footer{
@@ -217,7 +215,7 @@ footer{
     }
 
     main{
-        font-size: 0.8em;
+        font-size: 0.7em;
         max-width: 38vh;
     }
 
