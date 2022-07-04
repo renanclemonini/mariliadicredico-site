@@ -39,6 +39,7 @@ header{
 nav{
     padding: 20px;
     font-size: 1em;
+    text-align: center;
     background-color: var(--cor2);
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.438);
 }
