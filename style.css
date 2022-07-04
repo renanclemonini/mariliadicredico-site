@@ -154,8 +154,8 @@ footer{
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
-    font-family: Arial, Helvetica, sans-serif
-    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
 }
 
 @media (min-width: 1020px){
@@ -215,7 +215,7 @@ footer{
 @media (max-width: 400px){
     header#container{
         height: 170px;
-        background-size: 40vh;
+        background-size: 20vh;
     }
 
     nav{
