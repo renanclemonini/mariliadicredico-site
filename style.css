@@ -14,6 +14,13 @@
     --fonte-titulo: 'Cinzel', serif;
     --fonte-subtitulo: 'Akshar', sans-serif;
     --fonte-padrao: Arial, sans-serif;
+
+    --fontsize-p-web: 1.2em;
+    --fontsize-p-mobile: 0.7em;
+
+    --fontsize-h2: 1.5em;
+
+    --fontsize-usual: 1em;
 }
 
 *{
@@ -36,7 +43,7 @@ header#container{
 
 nav{
     padding: 15px;
-    font-size: 1.5em;
+    font-size: var(--fontweight-web);
     font-weight: normal;
     font-family: var(--fonte-padrao);
     text-align: center;
@@ -65,7 +72,7 @@ main{
     max-width: 80vw;
     margin: auto;
     margin-bottom: 30px;
-    padding: 5px 20px 5px 20px;
+    padding: 10px 20px 15px 20px;
     background-color: #ffdf00;
     box-shadow: 0px 5px 30px rgb(0, 0, 0);
     border-bottom-left-radius: 10px;
@@ -78,7 +85,7 @@ div.txt{
 
 main h2{
     text-align: center;
-    font-size: 2em;
+    font-size: var(--fontsize-h2);
     font-family: var(--fonte-padrao);
     font-variant: small-caps;
     text-decoration: underline;
@@ -87,11 +94,11 @@ main h2{
 }
 
 main p{
-    font-size: 1.2em;
+    font-size: var(--fontsize-p-web);
     font-family: var(--fonte-padrao);
     padding-top: 5px;
     padding-bottom: 5px;
-    font-weight: 500;
+    font-weight: normal;
     text-align: left;
     text-indent: 20px;
     line-height: 1.6em;
@@ -104,13 +111,13 @@ main img{
 
 main ul {
     list-style-position: inside;
-    font-size: 1.2em;
+    font-size: var(--fontsize-p-web);
     font-family: var(--fonte-padrao);
     text-align: left;
     text-decoration: underline;
     text-decoration-color: rgba(0, 0, 0, 0.418);
     columns: 2;
-    font-weight: 500;
+    font-weight: normal;
 }
 
 div.map {
@@ -128,19 +135,19 @@ aside{
 
 aside p{
     text-align: center;
-    font-weight: 400;
+    font-weight: normal;
 }
 
 aside a{
-    font-size: 1.2em;
+    font-size: var(--fontsize-p-web);
     color: black;
     transition-duration: .3s;
 }
 
-aside a.dentro{
+aside a.wpp{
     font-weight: normal;
     text-decoration-color: rgba(0, 0, 0, 0.486);
-    font-size: 1em;
+    font-size: var(--fontsize-usual);
 }
 
 aside a:hover{
@@ -155,7 +162,7 @@ aside a:hover{
 footer{
     background-color: black;
     color: white;
-    font-size: 1em;
+    font-size: var(--fontsize-usual);
     font-variant: small-caps;
     text-decoration: underline;
     text-decoration-color: rgba(255, 255, 255, 0.712);
@@ -184,16 +191,16 @@ footer{
     }
 
     nav{
-        font-size: 1em;
+        font-size: var(--fontsize-usual);
     }
 
     main{
         max-width: 75vw;
-        font-size: 1em;
+        font-size: var(--fontsize-usual);
     }
 
     footer{
-        font-size: 0.8em;
+        font-size: var(--fontsize-usual);
     }
 }
 
@@ -203,13 +210,17 @@ footer{
     }
 
     nav{
-        font-size: 1em;
+        font-size: var(--fontsize-usual);
     }
 
     main{
         max-width: 75vw;
-        font-size: 1em;
+        font-size: var(--fontsize-usual);
         padding-bottom: 10px;
+    }
+
+    main h2{
+        font-size: var(--fontsize-h2);
     }
 
     div.txt{
@@ -221,7 +232,7 @@ footer{
     }
 
     footer{
-        font-size: 0.8em;
+        font-size: var(--fontsize-p-mobile);
     }
 }
 
@@ -229,16 +240,19 @@ footer{
     header#container{
         height: 150px;
         background-size: 200px;
-        
     }
 
     nav{
-        font-size: 1em;
+        font-size: var(--fontsize-usual);
     }
 
     main{
-        font-size: 0.7em;
+        font-size: var(--fontsize-p-mobile);
         max-width: 70vh;
+    }
+
+    main h2{
+        font-size: var(--fontsize-h2);
     }
 
     main ul{
@@ -246,7 +260,7 @@ footer{
     }
 
     footer{
-        font-size: 0.7em;
+        font-size: var(--fontsize-usual);
     }
 }
 
@@ -257,12 +271,16 @@ footer{
     }
 
     nav{
-        font-size: 1em;
+        font-size: var(--fontsize-usual);
     }
 
     main{
-        font-size: 0.7em;
+        font-size: var(--fontsize-p-mobile);
         max-width: 38vh;
+    }
+
+    main h2{
+        font-size: var(--fontsize-h2);
     }
 
     main ul{
@@ -270,6 +288,6 @@ footer{
     }
 
     footer{
-        font-size: 0.7em;
+        font-size: var(--fontsize-p-mobile);
     }
 }
