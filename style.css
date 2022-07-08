@@ -13,7 +13,7 @@
     
     --fonte-titulo: 'Cinzel', serif;
     --fonte-subtitulo: 'Akshar', sans-serif;
-    --fonte-padrao: arial, helvetica, sans-serif;
+    --fonte-padrao: Arial, sans-serif;
 }
 
 *{
@@ -37,6 +37,8 @@ header#container{
 nav{
     padding: 15px;
     font-size: 1.5em;
+    font-weight: normal;
+    font-family: var(--fonte-padrao);
     text-align: center;
     background-color: var(--cor2);
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.438);
@@ -73,19 +75,21 @@ main{
 main h2{
     text-align: center;
     font-size: 2em;
+    font-family: var(--fonte-padrao);
     font-variant: small-caps;
     text-decoration: underline;
     text-decoration-color: rgba(0, 0, 0, 0.671);
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 15px;
 }
 
 main p{
     font-size: 1.2em;
+    font-family: var(--fonte-padrao);
     padding-top: 5px;
     padding-bottom: 15px;
     font-weight: 500;
-    text-align: justify;
+    text-align: left;
     text-indent: 20px;
     line-height: 1.6em;
 }
@@ -98,7 +102,8 @@ main img{
 main ul {
     list-style-position: inside;
     font-size: 1.2em;
-    text-align: center;
+    font-family: var(--fonte-padrao);
+    text-align: left;
     text-decoration: underline;
     text-decoration-color: rgba(0, 0, 0, 0.418);
     columns: 2;
@@ -152,9 +157,9 @@ footer{
     text-decoration: underline;
     text-decoration-color: rgba(255, 255, 255, 0.712);
     text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: var(--fonte-padrao);
     letter-spacing: 1px;
 }
 
