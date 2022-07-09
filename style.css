@@ -83,6 +83,11 @@ div.txt{
     padding-top: 10px;
 }
 
+div.list{
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
 main h2{
     text-align: center;
     font-size: var(--fontsize-h2);
@@ -276,7 +281,7 @@ footer{
 
     main{
         font-size: var(--fontsize-p-mobile);
-        max-width: 38vh;
+        max-width: 70vh;
     }
 
     main h2{
