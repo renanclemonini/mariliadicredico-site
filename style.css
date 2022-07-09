@@ -281,7 +281,7 @@ footer{
 
     main{
         font-size: var(--fontsize-p-mobile);
-        max-width: 70vh;
+        max-width: 50vh;
     }
 
     main h2{
