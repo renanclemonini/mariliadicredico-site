@@ -126,7 +126,7 @@ main ul {
 }
 
 div.map {
-    padding: 10px;
+    padding: 5px;
 }
 
 div.map > iframe{
@@ -253,7 +253,7 @@ footer{
 
     main{
         font-size: var(--fontsize-p-mobile);
-        max-width: 70vh;
+        max-width: 80%;
     }
 
     main h2{
@@ -281,11 +281,16 @@ footer{
 
     main{
         font-size: var(--fontsize-p-mobile);
-        max-width: 50vh;
+        max-width: 80%;
     }
 
     main h2{
         font-size: var(--fontsize-h2);
+    }
+
+    div.list{
+        padding-top: 10px;
+        padding-left: 0px;
     }
 
     main ul{
