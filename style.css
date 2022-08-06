@@ -182,21 +182,21 @@ footer{
 
 @media (max-width: 1100px){
     header#container{
-        background-size: 50vh;
+        height: 230px;
         padding: 0px;
     }
 }
 
 @media (max-width: 1000px){
     header#container{
-        background-size: 250px;
+        height: 200px;
         padding: 0px;
     }
 }
 
 @media (max-width: 720px){
     header#container{
-        background-size: 50vh;
+        height: 180px;
     }
 
     nav{
@@ -215,7 +215,7 @@ footer{
 
 @media (max-width: 600px){
     header#container{
-        background-size: 50vh;
+        height: 130px
     }
 
     nav{
@@ -247,8 +247,8 @@ footer{
 
 @media (max-width: 505px){
     header#container{
-        height: 150px;
-        background-size: 200px;
+        height: 120px;
+        background-size: 150px;
     }
 
     nav{
@@ -275,7 +275,7 @@ footer{
 
 @media (max-width: 400px){
     header#container{
-        height: 170px;
+        height: 150px;
         background-size: 150px;
     }
 
