@@ -71,7 +71,7 @@ nav > a:hover{
 }
 
 main{
-    max-width: 80vw;
+    max-width: 80%;
     margin: auto;
     margin-bottom: 30px;
     padding: 10px 20px 15px 20px;
@@ -204,7 +204,7 @@ footer{
     }
 
     main{
-        max-width: 75vw;
+        max-width: 80%;
         font-size: var(--fontsize-usual);
     }
 
