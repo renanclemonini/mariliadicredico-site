@@ -7,9 +7,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
 
 :root{
-    --cor0: rgb(255, 255, 255);
-    --cor1: rgba(245, 245, 11, 0.932);
-    --cor2: rgb(0, 0, 0);
+    --cor0: #ffffff;
+    --cor1: #f5f50bee;
+    --cor2: #000000;
     
     --fonte-titulo: 'Cinzel', serif;
     --fonte-subtitulo: 'Akshar', sans-serif;
@@ -35,7 +35,7 @@ body{
 
 header#container{
     height: 200px;
-    background-image: url('imagens/logocompleta_mary.png');
+    background-image: url(../imagens/logocompleta_mary.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 30%;

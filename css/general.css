@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+@media only screen and (min-width: 768px){
+    span#menuBurguer{
+        display: none;
+    }
+
+    menu{
+        display: block;
+        text-align: center;
+    }
+
+    menu > ul{
+        
+        background-color: black;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    menu > ul > li > a{
+        font-size: var(--fontsize-p-web);
+    }
+
+    menu > ul > li > a:hover{
+        color: var(--cor1);
+        background-color: var(--cor2);
+        text-decoration: underline;
+    }
+
+    main{
+        width: 680px;
+    }
+
+    article > p{
+        font-size: var(--fontsize-p-web);
+    }
+
+    article > ul{
+        font-size: var(--fontsize-p-web);
+        text-align: left;
+    }
+
+    footer{
+        padding: 15px 0px;
+        font-size: var(--fontsize-p-web);
+    }
+}

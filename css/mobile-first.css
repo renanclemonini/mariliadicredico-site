@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
+:root{
+    --cor0: #ffffff;
+    --cor1: #f5f50bee;
+    --cor2: #000000;
+    
+    --fonte-titulo: 'Cinzel', serif;
+    --fonte-subtitulo: 'Akshar', sans-serif;
+    --fonte-padrao: Arial, sans-serif;
+
+    --fontsize-p-web: 1em;
+    --fontsize-p-mobile: 0.8em;
+
+    --fontsize-h2: 1.5em;
+
+    --fontsize-usual: 1em;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--fonte-padrao);
+}
+
+header#container{
+    height: 180px;
+    background-image: url(../imagens/logocompleta_mary.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 250px;
+}
+
+span#menuBurguer{
+    background-color: var(--cor2);
+    color: #ffffff;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+span#menuBurguer:hover{
+    color: var(--cor1);
+}
+
+menu{
+    display: none;
+}
+
+menu > ul{
+    list-style-type: none;
+}
+
+menu > ul > li > a{
+    display: block;
+    font-size: var(--fontsize-p-mobile);
+    padding: 10px;
+    margin: 8px;
+    text-decoration: none;
+    text-align: center;
+    background-color: var(--cor2);
+    color: var(--cor0);
+    border-radius: 10px;
+}
+
+menu > ul > li > a:hover{
+    color: var(--cor1);
+}
+
+main{
+    width: 85vw;
+    background-color: var(--cor1);
+    margin: 8px auto;
+    border: 1px solid var(--cor2);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+article > h2{
+    text-align: center;
+    margin: 10px 0px;
+}
+
+article > p{
+    margin: 10px 3px;
+    font-size: var(--fontsize-p-mobile);
+}
+
+article > img{
+    display: block;
+    margin: auto;
+}
+
+article > ul{
+    margin: 5px;
+    list-style-position: inside;
+    font-size: var(--fontsize-p-mobile);
+    font-family: var(--fonte-padrao);
+    text-align: center;
+    text-decoration-color: rgba(0, 0, 0, 0.418);
+    columns: 2;
+    font-weight: normal;
+}
+
+article > ul > li{
+    margin: 3px 0px;
+}
+
+hr{
+    margin: 10px;
+}
+
+div.map{
+    padding: 10px;
+    text-align: center;
+}
+
+div.map > p{
+    margin-bottom: 10px;
+}
+
+iframe{
+    width: 100%;
+}
+
+.contato{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.contato > h2{
+    margin-bottom: 10px;
+}
+
+article > a{
+    font-size: var(--fontsize-p-mobile);
+    color: black;
+}
+
+a.wpp{
+    color: var(--cor2);
+    display: inline-block;
+    transition-duration: .3s;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: var(--fontsize-usual);
+}
+
+a.wpp:hover{
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: underline;
+}
+
+footer{
+    background-color: var(--cor2);
+    color: var(--cor0);
+    font-size: var(--fontsize-p-mobile);
+    font-variant: small-caps;
+    text-align: center;
+    padding: 10px 0px;
+    letter-spacing: 1px;
+}
