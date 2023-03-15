@@ -42,8 +42,20 @@
         text-align: left;
     }
 
+    .h5Primeiro{
+        margin-bottom: 50px;
+    }
+
+    div#descricao > p{
+        font-size: var(--fontsize-p-web);
+    }
+
+    .pDoPrimeiroProduto{
+        margin-top: 30px;
+    }
+
     .imagem{
-        width: 150px;
+        width: 100px;
     }
 
     div#caixaProduto > p{

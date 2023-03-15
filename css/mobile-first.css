@@ -113,17 +113,37 @@ article > ul > li{
     margin: 3px 0px;
 }
 
-div#caixaMaior{
-    
-}
-
 div#caixaProduto{
     padding: 10px 0px;
     margin: 10px 0px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
+}
+
+div#produtoDescricao{
+    width: 350px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+div#descricao{
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#descricao > p{
+    margin: 30px;
+    text-align: left;
+    font-size: var(--fontsize-p-mobile);
+}
+
+.preco{
+    font-weight: bold;
 }
 
 .primeiroProduto{
@@ -135,20 +155,14 @@ div#caixaProduto{
     margin: 10px 0px;
 }
 
-div#caixaProduto > p{
-    font-weight: bold;
-    font-size: var(--fontsize-p-mobile);
-    margin: 5px 0px;
-}
-
 div#caixaProduto > p > a{
     font-weight: normal;
+    color: var(--cor2);
     text-decoration: none;
 }
 
 div#caixaProduto > p > a:hover{
     text-decoration: underline;
-    color: var(--cor2);
     font-weight: bold;
 }
 
