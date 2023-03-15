@@ -33,6 +33,10 @@
         width: 680px;
     }
 
+    #mainAdm{
+        height: 305px;
+    }
+
     article > p{
         font-size: var(--fontsize-p-web);
     }
