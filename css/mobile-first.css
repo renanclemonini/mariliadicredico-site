@@ -75,7 +75,7 @@ menu > ul > li > a:hover{
 }
 
 main{
-    width: 85vw;
+    width: 90vw;
     background-color: var(--cor1);
     margin: 8px auto;
     border: 1px solid var(--cor2);
