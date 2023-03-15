@@ -113,8 +113,48 @@ article > ul > li{
     margin: 3px 0px;
 }
 
+div#caixaMaior{
+    
+}
+
+div#caixaProduto{
+    padding: 10px 0px;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.primeiroProduto{
+    margin-top: 0px;
+}
+
+.imagem{
+    width: 75px;
+    margin: 10px 0px;
+}
+
+div#caixaProduto > p{
+    font-weight: bold;
+    font-size: var(--fontsize-p-mobile);
+    margin: 5px 0px;
+}
+
+div#caixaProduto > p > a{
+    font-weight: normal;
+    text-decoration: none;
+}
+
+div#caixaProduto > p > a:hover{
+    text-decoration: underline;
+    color: var(--cor2);
+    font-weight: bold;
+}
+
 hr{
     margin: 10px;
+    border: 1px solid var(--cor2);
 }
 
 div.map{

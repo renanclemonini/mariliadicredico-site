@@ -42,6 +42,14 @@
         text-align: left;
     }
 
+    .imagem{
+        width: 150px;
+    }
+
+    div#caixaProduto > p{
+        font-size: var(--fontsize-p-web);
+    }
+
     footer{
         padding: 15px 0px;
         font-size: var(--fontsize-p-web);
